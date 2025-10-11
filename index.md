@@ -1,9 +1,3 @@
----
-layout: default
-title: Computer Networks Laboratory
----
-
-
 # 🌐 Computer Networks Laboratory
 
 Welcome to my Computer Networks Lab notes!  
