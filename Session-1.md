@@ -10,13 +10,13 @@ In a **star topology**, all devices are connected to a central device (like a **
 
 #### 🖼️ Visual Representation
 
-       [PC1]
-          |
-          |
+                     [PC1]
+                        |
+                        |
         [PC2] ---- [Switch/Hub] ---- [PC3]
-        |
-        |
-       [PC4]
+                      |
+                      |
+                     [PC4]
 
 
 ### ⚙️ Characteristics
