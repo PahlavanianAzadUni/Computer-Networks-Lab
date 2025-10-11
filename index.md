@@ -1,7 +1,8 @@
 ---
-title: Computer Networks Lab Notes
 layout: default
+title: Computer Networks Laboratory
 ---
+
 
 # 🌐 Computer Networks Laboratory
 
