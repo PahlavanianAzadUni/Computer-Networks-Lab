@@ -1,12 +1,34 @@
-# 🌐 Computer Networks Lab Notes
+---
+title: Computer Networks Lab Notes
+layout: default
+---
 
-Welcome to my Computer Networks Laboratory notebook!
+# 🌐 Computer Networks Laboratory
 
-## 📚 Sessions
-- [Session 1 — IP Addressing, DNS, and Topologies](Session-1.md)
+Welcome to my Computer Networks Lab notes!  
+This site contains detailed, session-by-session Markdown notes built throughout the semester.  
+Each topic is explained clearly with diagrams, tables, and examples for easy review.
 
 ---
-This site is built with [GitHub Pages](https://pages.github.com/) by Pahlavanian Mohammad
 
-Uni Term of 1404
+## 📘 Sessions
+
+| Session | Topics Covered |
+|:--------|:----------------|
+| [Session 1](Session-1.md) | Star Topology, DNS, IP Addressing, Subnets, IPv4/IPv6, MAC, Dynamic IP, IoT |
+
+---
+
+## 🧭 Navigation
+- [View Repository on GitHub](https://github.com/PahlavanianAzadUni/Computer-Networks-Lab)
+- [About GitHub Pages](https://pages.github.com/)
+- [Markdown Guide](https://www.markdownguide.org/)
+
+---
+
+> ✍️ *Site automatically updates whenever new notes are pushed to the repository.*
+
+Uni Term of 1404 
+by Pahlavanian Mohammad
+
 <link rel="stylesheet" href="assets/css/style.css">
