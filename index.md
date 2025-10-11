@@ -32,4 +32,3 @@ Each topic is explained clearly with diagrams, tables, and examples for easy rev
 Uni Term of 1404 
 by Pahlavanian Mohammad
 
-<link rel="stylesheet" href="assets/css/style.css">
