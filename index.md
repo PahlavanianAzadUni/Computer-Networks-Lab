@@ -9,3 +9,4 @@ Welcome to my Computer Networks Laboratory notebook!
 This site is built with [GitHub Pages](https://pages.github.com/) by Pahlavanian Mohammad
 
 Uni Term of 1404
+<link rel="stylesheet" href="assets/css/style.css">
