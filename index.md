@@ -24,11 +24,10 @@ Each topic is explained clearly with diagrams, tables, and examples for easy rev
 
 ---
 
+### Semnan Azad University
+### Uni Term of 1404
+### Class of Mrs Madani
+
+## by Pahlavanian Mohammad
 > ✍️ *Site automatically updates whenever new notes are pushed to the repository.*
-
-Semnan Azad University
-Uni Term of 1404
-Class of Mrs Madani
-
-by Pahlavanian Mohammad
 
