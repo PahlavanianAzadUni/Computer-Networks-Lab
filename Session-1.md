@@ -85,6 +85,8 @@ IPv4 is divided into **five classes** based on range and usage.
 | D     | 224 – 239             | 224.0.0.1         | —                   | Multicasting          |
 | E     | 240 – 255             | —                 | —                   | Experimental          |
 
+ 
+![alt text](IPv4-Address-Classes.jpg)
 ---
 
 ### 🌍 Private IP Ranges (Not Publicly Routable)
