@@ -19,12 +19,16 @@ Each topic is explained clearly with diagrams, tables, and examples for easy rev
 ## 🧭 Navigation
 
 * [View Repository on GitHub](https://github.com/PahlavanianAzadUni/Computer-Networks-Lab)
-* [About GitHub Pages](https://pages.github.com/)
-* [Markdown Guide](https://www.markdownguide.org/)
+* [Computer Networks notes](https://github.com/PahlavanianAzadUni/computer-networks-notes)
+* [My Github](https://github.com/PahlavanianAzadUni)
 
 ---
 
 > ✍️ *Site automatically updates whenever new notes are pushed to the repository.*
 
+Semnan Azad University
 Uni Term of 1404
+Class of Mrs Madani
+
 by Pahlavanian Mohammad
+
