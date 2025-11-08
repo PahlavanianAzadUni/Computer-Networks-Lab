@@ -27,21 +27,21 @@ Each LAN was then connected to a **Router** via FastEthernet interfaces:
 ### ⛰️ ASCII Topology Diagram
 
 ```text
-           +---------------------+
-           |       Router        |
-           |---------------------|
-           | Fa1/0   |   Fa2/0   |
-           |192.168.1.1  192.168.2.1|
-           +-----------+-----------+
-                       |           |
-                +------+           +------+
-                |                         |
-         +-------------+           +-------------+
-         |   Switch 1  |           |   Switch 2  |
-         +------+------+           +------+------+
-                |                         |
-     192.168.1.0/24              192.168.2.0/24
-     (3 PCs)                     (3 PCs)
+                      +--------------------------+
+                      |           Router         |
+                      |--------------------------|
+                      |    Fa1/0   |    Fa2/0    |
+                      |192.168.1.1 |  192.168.2.1|
+                      +------------+-------------+
+                            |           |
+                     +------+           +------+
+                     |                         |
+              +-------------+           +-------------+
+              |   Switch 1  |           |   Switch 2  |
+              +------+------+           +------+------+
+                     |                         |
+              192.168.1.0/24              192.168.2.0/24
+                (3 PCs)                     (3 PCs)
 ```
 
 > 💡 **Tip:** Each LAN must have a **unique network ID**. Routers connect different networks, so their connected interfaces must belong to **different subnets**.
