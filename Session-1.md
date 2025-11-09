@@ -76,15 +76,6 @@ It’s like a **home address** for your device — it tells where data should go
 
 ### 🧱 IP Address Classes (IPv4)
 IPv4 is divided into **five classes** based on range and usage.
-
-| Class | Range of First Octet | Example IP       | Default Subnet Mask | Use Type              |
-|:------|:----------------------|:------------------|:--------------------|:----------------------|
-| A     | 1 – 126               | 10.0.0.1          | 255.0.0.0           | Very large networks   |
-| B     | 128 – 191             | 172.16.0.1        | 255.255.0.0         | Medium networks       |
-| C     | 192 – 223             | 192.168.1.1       | 255.255.255.0       | Small networks        |
-| D     | 224 – 239             | 224.0.0.1         | —                   | Multicasting          |
-| E     | 240 – 255             | —                 | —                   | Experimental          |
-
  
 ![alt text](IPv4-Address-Classes.jpg)
 ---
