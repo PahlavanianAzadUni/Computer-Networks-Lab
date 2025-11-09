@@ -194,8 +194,6 @@ You can assign any private IPs locally (e.g., `192.168.1.x`), but those are **no
 ### ☁️ Global Connectivity
 If a device needs to **connect to the Internet (cloud)** directly, it must have a **public IP** that is unique worldwide.
 
-That’s why your idea of one IP per modem works **for local communication**, but **not for global Internet access** — only the modem/router has the public IP, and internal devices share it via **NAT**.
-
 ---
 
 ## 🧠 Summary
