@@ -1,4 +1,14 @@
-theme: jekyll-theme-cayman       
-title: Computer Networks Lab Notes
-description: Mohammad’s Computer Networks Laboratory
+theme: jekyll-theme-minimal
+title: Computer Networks Lab
+description: Lab Sessions and Resources
 
+# Add these lines
+nav:
+  - title: Home
+    url: /
+  - title: Session 1
+    url: /Session-1.html
+  - title: Session 2
+    url: /Session-2.html
+  - title: Session 3
+    url: /Session-3.html
