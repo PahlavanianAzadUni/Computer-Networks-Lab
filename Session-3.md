@@ -20,7 +20,7 @@ We began with two separate LANs:
 Each LAN was then connected to a **Router** via FastEthernet interfaces:
 
 * **FastEthernet0/0** connected to **Switch 1**.
-* **FastEthernet0/1** connected to **Switch 2**.
+* **FastEthernet1/0** connected to **Switch 2**.
 
 ---
 
