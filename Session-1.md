@@ -141,6 +141,7 @@ A **MAC address** is a **unique hardware identifier** assigned to a network inte
   Example: `00:1A:2B:3C:4D:5E`
 
 ### ⚙️ Difference Between IP and MAC
+
 | Property | IP Address | MAC Address |
 |:----------|:------------|:-------------|
 | Type | Logical (can change) | Physical (fixed) |
