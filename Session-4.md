@@ -46,45 +46,8 @@ Each LAN was assigned a unique subnet to avoid IP conflicts. This was crucial si
 
 ## 🧱 Part 2 — ASCII Network Diagram
 
-```text
-              ┌────────────────────────────┐
-              │        Router 1 (R1)       │
-              │----------------------------│
-              │ S0/0 → 192.168.2.1         │───┐
-              │ S0/1 → (connected to R2)   │   │
-              └────────────────────────────┘   │
-                       |                      (Serial Link)
-                       |                       │
-                       |                       │
-              ┌────────────────────────────┐   │
-              │        Router 2 (R2)       │   │
-              │----------------------------│   │
-              │ S0/0 → 192.168.5.2         │◄──┘
-              │ S0/1 → (connected to R1)   │
-              └────────────────────────────┘
-                       
-          LAN A (behind R1)                    LAN B (behind R2)
-    ┌──────────────────────┐             ┌──────────────────────┐
-    │ Switch A             │             │ Switch B             │
-    │----------------------│             │----------------------│
-    │ PCs:                 │             │ PCs:                 │
-    │ 192.168.2.2          │             │ 192.168.5.3          │
-    │ 192.168.2.3          │             │ 192.168.5.4          │
-    └──────────────────────┘             └──────────────────────┘
-          │      │                            │      │
-          └──────┘                            └──────┘
-          LAN: 192.168.2.0/24                 LAN: 192.168.5.0/24
+![alt text](serial_connection.png)
 
-
-
-Notes:
-- The **serial connection** between R1 and R2 uses a **DCE–DTE link**.  
-  - R1 (DCE) must define the **clock rate**: `clock rate 19200`
-  - R2 (DTE) simply receives the timing signal.
-- Each router’s **Serial interface (S0/x)** connects to the other router.
-- Each router also connects to its **local LAN** via a **FastEthernet** or **GigabitEthernet** interface.
-- The **Static routes** allow LAN A and LAN B to communicate across routers.
-```
 
 > 🔌 **Serial Connection Explanation:**
 > The serial cable connects Router 1 and Router 2 using the Serial0/1/x interfaces. In Packet Tracer, you can identify the **DCE side** by hovering over the cable — it shows a small tag. The DCE side must define the **clock rate** to provide synchronization. Without it, the routers won’t establish a stable link, and the serial interface LEDs will stay **orange** instead of turning **green**.
