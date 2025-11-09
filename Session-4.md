@@ -36,6 +36,15 @@ We built a network with two main routers (**R0** and **R1**) interconnected via 
 > * Routers serve as **default gateways** for their connected PCs.
 > * The serial link (192.168.1.0/30) provides inter-router communication.
 > * R0 is the **DCE side** (it sets the clock rate), while R1 is the **DTE side**.
+> * A /30 subnet gives only 2 usable IPs, which is perfect for point-to-point links (like between two routers).
+Since the block size is 4, this subnet includes:
+
+| Type               | Address         | Description                             |
+| ------------------ | --------------- | --------------------------------------- |
+| Network address    | **192.168.1.0** | identifies the subnet                   |
+| First usable host  | **192.168.1.1** | device 1                                |
+| Second usable host | **192.168.1.2** | device 2                                |
+| Broadcast address  | **192.168.1.3** | used to talk to all hosts in the subnet |
 
 ---
 
