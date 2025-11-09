@@ -130,12 +130,14 @@ Switch# disable                # Return to user mode
 
 * Don’t confuse **Hub** and **Switch** — only the switch learns MAC addresses.
 * **Ping** doesn’t use TCP or UDP; it uses **ICMP**.
+
 | Feature     | TCP             | UDP                     | ICMP (used by Ping)                |
 | ----------- | --------------- | ----------------------- | ---------------------------------- |
 | Connection  | Yes (handshake) | No                      | No                                 |
 | Reliability | Reliable        | Unreliable              | Control-only                       |
 | Use cases   | Web, Email, FTP | Streaming, Gaming, VoIP | Network testing (ping, traceroute) |
 | Layer       | Transport Layer | Transport Layer         | Network Layer                      |
+
 * TTL doesn’t measure time in seconds — it counts **network hops**.
 * You cannot `ping` across different networks **without a router**.
 * Make sure **all devices are in the same subnet** (same first 3 octets in IPv4) when testing connectivity in a LAN.
